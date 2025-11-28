@@ -17,14 +17,14 @@
     // --- 1. 配置关键字类别和颜色 ---
     const highlightCategories = [
         {
-            keywords: ['first name', 'firstname', 'last name', 'lastname', 'full name', 'fullname', '全名', '姓名'],
+            keywords: ['first name', 'firstname', 'last name', 'lastname', 'full name', 'fullname', '全名', '姓名', '名字', '姓氏'],
             textBgColor: 'red',
             textColor: 'white',
             borderColor: 'red',
             className: 'highlight-name'
         },
         {
-            keywords: ['phone number', 'phone', '电话'],
+            keywords: ['phone number', 'phone', '电话', '電話號碼'],
             textBgColor: 'blue',
             textColor: 'white',
             borderColor: 'blue',
@@ -52,7 +52,7 @@
             className: 'highlight-state'
         },
         {
-            keywords: ['postcode', 'zip code', '邮编'],
+            keywords: ['postcode', 'zip code', '邮编', '郵遞區號'],
             textBgColor: 'cyan',
             textColor: 'black',
             borderColor: 'cyan',
